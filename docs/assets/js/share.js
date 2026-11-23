@@ -217,7 +217,7 @@
     const picked = (data.picked && data.picked.length ? data.picked : [data.photo]).filter(Boolean).slice(0, MAX_PICK);
     const [loaded, logo] = await Promise.all([
       Promise.all(picked.map(u => loadImg(shareSize(u)))),
-      loadImg(new URL('assets/img/logo.png', location.href).href),
+      loadImg(new URL('assets/img/app-icon.png', location.href).href),
       fontsReady(),
     ]);
     let pics = loaded.filter(Boolean);

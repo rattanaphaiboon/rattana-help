@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024" width="1024" height="1024">
+  <title>RATTANA HELP</title>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#3567D6"/>
+      <stop offset="0.55" stop-color="#1E3590"/>
+      <stop offset="1" stop-color="#101A55"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0.5" cy="0.42" r="0.5">
+      <stop offset="0" stop-color="#F9B92A" stop-opacity="0.35"/>
+      <stop offset="1" stop-color="#F9B92A" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="gold" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#FFE59A"/>
+      <stop offset="0.45" stop-color="#F9B92A"/>
+      <stop offset="1" stop-color="#DC8F0B"/>
+    </linearGradient>
+    <linearGradient id="shine" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#FFFFFF" stop-opacity="0.22"/>
+      <stop offset="1" stop-color="#FFFFFF" stop-opacity="0"/>
+    </linearGradient>
+    <filter id="drop" x="-30%" y="-30%" width="160%" height="160%">
+      <feDropShadow dx="0" dy="22" stdDeviation="26" flood-color="#07103A" flood-opacity="0.45"/>
+    </filter>
+    <clipPath id="tile"><rect width="1024" height="1024" rx="228"/></clipPath>
+  </defs>
+
+  <g clip-path="url(#tile)">
+    <rect width="1024" height="1024" fill="url(#bg)"/>
+    <circle cx="512" cy="430" r="420" fill="url(#glow)"/>
+    <!-- glass highlight -->
+    <path d="M0 0H1024V360C820 300 560 330 0 470Z" fill="url(#shine)"/>
+    <!-- water -->
+    <path d="M150 846c60-34 120-34 180 0s120 34 182 0 122-34 182 0 120 34 180 0" fill="none" stroke="#8EC2FF" stroke-width="30" stroke-linecap="round" opacity="0.9"/>
+    <path d="M226 920c48-27 96-27 143 0s96 27 143 0 96-27 143 0 96 27 143 0" fill="none" stroke="#8EC2FF" stroke-width="26" stroke-linecap="round" opacity="0.5"/>
+  </g>
+
+  <!-- pin + heart -->
+  <g filter="url(#drop)">
+    <path d="M512 800C470 744 290 590 290 424A222 222 0 0 1 734 424C734 590 554 744 512 800Z" fill="url(#gold)"/>
+    <path d="M512 524C414 462 386 404 410 362C433 322 486 322 512 364C538 322 591 322 614 362C638 404 610 462 512 524Z" fill="#FFFDF6"/>
+  </g>
+</svg>
