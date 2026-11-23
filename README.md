@@ -9,7 +9,7 @@
 
 | ส่วน | อยู่ที่ |
 |---|---|
-| หน้าเว็บ + หน้า Admin | GitHub Pages จากโฟลเดอร์ `docs/` → `https://rattana2555.github.io/rattana-help/` (Admin: `…/admin.html`) |
+| หน้าเว็บ + หน้า Admin | GitHub Pages จากโฟลเดอร์ `docs/` → `https://rattanaphaiboon.github.io/rattana-help/` (Admin: `…/admin.html`) |
 | ข้อมูล | Google Sheets |
 | ภาพ | Google Drive |
 | หลังบ้าน (ล็อกอิน สิทธิ์ บันทึกข้อมูล) | Google Apps Script — โค้ดใน [`apps-script/Code.gs`](apps-script/Code.gs) |
